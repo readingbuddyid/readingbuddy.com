@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Little Book Haven</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Little Book Haven</h1>
+    <p>Beautiful Books for Little Hearts</p>
+    <div class="social">
+      <a href="https://wa.me/628XXXXXXXXXX" class="wa">Order on WhatsApp</a>
+      <a href="https://instagram.com/YOURINSTAGRAM" class="ig">Instagram</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h2>Helping Children Fall in Love with Reading</h2>
+    <p>Carefully curated books that inspire imagination, faith, and kindness.</p>
+    <a href="#shop" class="shop-btn">Shop Now</a>
+  </section>
+
+  <!-- SHOP -->
+  <section id="shop" class="shop">
+    <h2>Our Bestsellers</h2>
+
+    <div class="products">
+
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Book 1">
+        <h3>The Little Engine That Could</h3>
+        <p>Price: $12</p>
+        <a href="https://wa.me/628XXXXXXXXXX" class="buy">Buy via WhatsApp</a>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Book 2">
+        <h3>God Loves You Always</h3>
+        <p>Price: $15</p>
+        <a href="https://wa.me/628XXXXXXXXXX" class="buy">Buy via WhatsApp</a>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Book 3">
+        <h3>Feelings & Me</h3>
+        <p>Price: $14</p>
+        <a href="https://wa.me/628XXXXXXXXXX" class="buy">Buy via WhatsApp</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Little Book Haven is an online children’s bookstore created to help families grow through meaningful stories, values, and imagination.</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Order directly via WhatsApp or follow our Instagram for updates & promotions.</p>
+    <div class="social">
+      <a href="https://wa.me/628XXXXXXXXXX" class="wa">Chat on WhatsApp</a>
+      <a href="https://instagram.com/YOURINSTAGRAM" class="ig">Visit Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Little Book Haven</p>
+  </footer>
+
+</body>
+</html>
