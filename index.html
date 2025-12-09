@@ -5,7 +5,15 @@
   <title>Little Book Haven</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body>  
+  <script id="myData" type="application/json">
+    {
+    "title": "Product Name",
+    "img": "./files/download.jpeg",
+    "price": "Rp. 29.999"
+    }
+  </script>
+
 
   <!-- HEADER -->
   <header>
@@ -28,29 +36,7 @@
   <section id="shop" class="shop">
     <h2>Our Bestsellers</h2>
 
-    <div class="products">
-
-      <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Book 1">
-        <h3>The Little Engine That Could</h3>
-        <p>Price: $12</p>
-        <a href="https://wa.me/628XXXXXXXXXX" class="buy">Buy via WhatsApp</a>
-      </div>
-
-      <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Book 2">
-        <h3>God Loves You Always</h3>
-        <p>Price: $15</p>
-        <a href="https://wa.me/628XXXXXXXXXX" class="buy">Buy via WhatsApp</a>
-      </div>
-
-      <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Book 3">
-        <h3>Feelings & Me</h3>
-        <p>Price: $14</p>
-        <a href="https://wa.me/628XXXXXXXXXX" class="buy">Buy via WhatsApp</a>
-      </div>
-
+    <div class="products" id="products">
     </div>
   </section>
 
@@ -76,3 +62,19 @@
 
 </body>
 </html>
+
+  <script>
+    // Read JSON from the script tag
+    const jsonText = document.getElementById("myData").textContent;
+    const data = JSON.parse(jsonText);
+
+    // Use the data
+     document.getElementById("products").innerHTML +=
+           `<div class="product">
+        <img src="${data.img}" alt="${data.title}">
+        <h3>${data.title}</h3>
+        <p>Price: ${data.price}</p>
+        <a href="https://wa.me/628XXXXXXXXXX" class="buy">Buy via WhatsApp</a>
+      </div>`
+;
+  </script>
