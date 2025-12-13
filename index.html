@@ -9,7 +9,15 @@
   <script id="myData" type="application/json">
     {
     "title": "How to Code: A Step-By-Step Guide to Computer Coding",
-    "img": "/files/Step-By-StepGuidetoComputerCoding_cover.png",
+    "img": "Step-By-StepGuidetoComputerCoding_cover.png",
+    "price": "Rp 135.500"
+    },  {
+    "title": "How to Code: A Step-By-Step Guide to Computer Coding",
+    "img": "Step-By-StepGuidetoComputerCoding_cover.png",
+    "price": "Rp 135.500"
+    },  {
+    "title": "How to Code: A Step-By-Step Guide to Computer Coding",
+    "img": "Step-By-StepGuidetoComputerCoding_cover.png",
     "price": "Rp 135.500"
     }
   </script>
@@ -70,7 +78,7 @@
     // Use the data
      document.getElementById("products").innerHTML +=
            `<div class="product">
-        <img src="${data.img}" alt="${data.title}">
+        <img src="./files/${data.img}" alt="${data.title}">
         <h3>${data.title}</h3>
         <p>Price: ${data.price}</p>
         <a href="https://wa.me/628XXXXXXXXXX" class="buy">Buy via WhatsApp</a>
