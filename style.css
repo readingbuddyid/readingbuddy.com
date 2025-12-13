@@ -1,19 +1,19 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #fff8f0;
+  background: #FFFFFF;
   color: #333;
   text-align: center;
 }
 
 header {
-  background: #ffb703;
+  background: #FFFFFF;
   padding: 25px;
 }
 
 header h1 {
   margin: 0;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .social a {
@@ -27,11 +27,11 @@ header h1 {
 }
 
 .wa {
-  background: #25d366;
+  background: #FFFFFF;
 }
 
 .ig {
-  background: #e1306c;
+  background: #FFFFFF;
 }
 
 .hero {
