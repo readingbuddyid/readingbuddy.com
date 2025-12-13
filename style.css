@@ -7,13 +7,13 @@ body {
 }
 
 header {
-  background: #FFFFFF;
+  background:  #89CFF0;
   padding: 25px;
 }
 
 header h1 {
   margin: 0;
-  color: #89CFF0;
+  color: #FFFFFF;
 }
 
 .social a {
@@ -21,17 +21,17 @@ header h1 {
   margin: 10px;
   padding: 10px 18px;
   border-radius: 20px;
-  color: white;
+  color: #F88379;
   display: inline-block;
   font-weight: bold;
 }
 
 .wa {
-  background: #FFFFFF;
+  background: #AFE1AF;
 }
 
 .ig {
-  background: #FFFFFF;
+  background:#AFE1AF;
 }
 
 .hero {
@@ -82,7 +82,7 @@ header h1 {
 }
 
 .about, .contact {
-  background: #FFB6C1;
+  background: #AFE1AF;
   padding: 40px 20px;
 }
 
