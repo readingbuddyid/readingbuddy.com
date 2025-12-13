@@ -76,6 +76,7 @@
     const data = JSON.parse(jsonText);
 
     // Use the data
+    data.map(e=>{
      document.getElementById("products").innerHTML +=
            `<div class="product">
         <img src="./files/${data.img}" alt="${data.title}">
@@ -83,5 +84,7 @@
         <p>Price: ${data.price}</p>
         <a href="https://wa.me/628XXXXXXXXXX" class="buy">Buy via WhatsApp</a>
       </div>`
+       })
+    
 ;
   </script>
