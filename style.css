@@ -60,7 +60,7 @@ header h1 {
 
 .product {
   background: white;
-  width: 250px;
+  width: 150px;
   margin: 15px;
   padding: 15px;
   border-radius: 15px;
@@ -82,12 +82,12 @@ header h1 {
 }
 
 .about, .contact {
-  background: #fff1ca;
+  background: #FFB6C1;
   padding: 40px 20px;
 }
 
 footer {
-  background: #222;
+  background: #FFAC1C;
   color: white;
   padding: 15px;
 }
